@@ -42,7 +42,7 @@ Esta ferramenta foi criada **exclusivamente para fins educacionais** e para uso 
 
 ```bash
 # clone o repositório
-git clone https://github.com/SEU_USUARIO/sqlitool.git
+git clone https://github.com/Vishapy/sqlitool.git
 cd sqlitool
 
 # crie e ative um ambiente virtual
