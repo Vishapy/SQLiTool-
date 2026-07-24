@@ -1,0 +1,109 @@
+/* Tema geral */
+Screen {
+    background: #0d1117;
+}
+
+Header {
+    background: #161b22;
+    color: #58a6ff;
+}
+
+Footer {
+    background: #161b22;
+}
+
+/* Layout principal: config+abas à esquerda, log à direita */
+#main-layout {
+    height: 1fr;
+}
+
+#left-pane {
+    width: 60%;
+    border-right: solid #30363d;
+    padding: 1 2;
+}
+
+#right-pane {
+    width: 40%;
+    padding: 1 2;
+}
+
+/* Painel de configuração do alvo */
+#target-config {
+    background: #161b22;
+    border: round #30363d;
+    padding: 1 2;
+    margin-bottom: 1;
+}
+
+.section-title {
+    color: #58a6ff;
+    text-style: bold;
+    margin-bottom: 1;
+}
+
+.config-row {
+    height: 3;
+    align: left middle;
+    margin-bottom: 1;
+}
+
+.config-label {
+    width: 22;
+    color: #8b949e;
+}
+
+.config-row Input, .config-row Select {
+    width: 1fr;
+}
+
+.config-buttons {
+    height: 3;
+    align: left middle;
+}
+
+.config-buttons Button {
+    margin-right: 1;
+}
+
+/* Abas */
+TabbedContent {
+    background: transparent;
+}
+
+Tab {
+    color: #8b949e;
+}
+
+Tab.-active {
+    color: #58a6ff;
+    text-style: bold;
+}
+
+.tab-content {
+    padding: 1 1;
+}
+
+.tab-description {
+    color: #8b949e;
+    margin-bottom: 1;
+}
+
+/* Botões de execução (verde = ação de disparo) */
+Button.-success {
+    background: #238636;
+    color: white;
+}
+
+Button.-primary {
+    background: #1f6feb;
+    color: white;
+}
+
+/* Log de resultados */
+#result-log {
+    background: #010409;
+    border: round #30363d;
+    color: #7ee787;
+    height: 1fr;
+}
